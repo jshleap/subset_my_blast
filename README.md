@@ -51,7 +51,7 @@ Usage: ssmb [-A|--acc2taxidfile <arg>] [--(no-)print] [-h|--help] <ID> <CPUS> <D
 ```
 
 ### Example: Subset of the genus [Pimephales](https://en.wikipedia.org/wiki/Pimephales)
-Say you have the nt database locally install at `/home/databases/nt`. Turns out you only care about the fishes from the genus *Pimephales*, and you would like to create a subset database of said genus. `ssmb` has two options for this: with the taxid or with the taxon name. Both have to be valid for the NCBI. Let's say that you are running this in your laptop, and that it has 10 cpus available. Let's also say that you want nucleotides and **NOT** proteins, you can call ssmb, either like this:
+Say you have the nt database locally installed at `/home/databases/nt`. Turns out you only care about the fishes from the genus *Pimephales*, and you would like to create a subset database of said genus. `ssmb` has two options for this: with the taxid or with the taxon name. Both have to be valid for the NCBI. Let's say that you are running this in your laptop, and that it has 10 cpus available. Let's also say that you want nucleotides and **NOT** proteins, you can call ssmb, either like this:
 ```bash
 ssmb Pimephales 10 /home/databases/nt nucl
 ```
