@@ -61,7 +61,7 @@ ssmb 51137 10 /home/databases/nt nucl
 ```
 since *Pimephales*' NCBI tax ID is 51137.
 
-In both of the above cases, ssmb assumes that you do not have the accession2taxid files downloaded (e.g. either nucl_gb.accession2taxid.gz for nucleotides or prot.accession2taxid.gz for proteins), so it will dowload it for you. If youb already have these files, and would like to use your local copy, just pass the path to that file using the `-A` option. Let's asume that you have the `nucl_gb.accession2taxid.gz` in the `/home/accession2taxid` folder, then you can call `ssmb` as:
+In both of the above cases, ssmb assumes that you do not have the accession2taxid files downloaded (e.g. either nucl_gb.accession2taxid.gz for nucleotides or prot.accession2taxid.gz for proteins), so it will dowload it for you. If you already have these files, and would like to use your local copy, just pass the path to that file using the `-A` option. Let's asume that you have the `nucl_gb.accession2taxid.gz` in the `/home/accession2taxid` folder, then you can call `ssmb` as:
 ```bash
 ssmb -A /home/accession2taxid/nucl_gb.accession2taxid.gz 51137 10 /home/databases/nt nucl
 ```
